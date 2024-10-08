@@ -1,0 +1,41 @@
+/* Footer.css */
+.app-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: transparent;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-footer p {
+    margin: 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-right: 3335px;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.app-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.app-footer a:hover {
+    color: #ddd;
+}

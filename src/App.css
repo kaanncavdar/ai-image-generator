@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.modal-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem;
+  }
+  
+  .navbar-links a,
+  .navbar-links button {
+    margin-left: 1rem;
+  }
+  

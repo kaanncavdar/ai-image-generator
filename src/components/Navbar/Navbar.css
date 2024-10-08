@@ -1,0 +1,49 @@
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.nav-ul li {
+    color: white;
+}
+
+.nav-ul li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-ul li a:hover {
+    background-color: #111;
+}
+
+.nav-ul li a:active {
+    background-color: #555;
+}
+
+.nav-ul li.right {
+    margin-left: auto;
+}
+
+/* Add this */
+.nav-ul li.right + li.right {
+    margin-left: 0;
+}
+
+button {
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important ;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #111 !important;
+}

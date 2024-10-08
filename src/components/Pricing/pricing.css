@@ -1,0 +1,80 @@
+/* pricing.css */
+
+.pricing-container {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.pricing-container h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #D1C4E9; /* Açık mor tonları */
+}
+
+.pricing-boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+}
+
+.pricing-box:hover {
+    transform: translateY(-10px);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.pricing-box h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #B39DDB; /* Açık mor tonları */
+}
+
+.pricing-box p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #EDE7F6; /* Açık mor tonları */
+}
+
+.pricing-box ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.pricing-box ul li {
+    font-size: 1em;
+    margin-bottom: 10px;
+    color: #EDE7F6;
+}
+
+.pricing-box button {
+    background-color: #512DA8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pricing-box button:hover {
+    background-color: #4527A0;
+}

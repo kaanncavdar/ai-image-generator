@@ -1,0 +1,62 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #000428 -13.13%, #031b35 0.17%, #051937 6.9%, rgba(5, 25, 55, 0.99) 36.38%, #00021A 98.59%) !important;
+  color: white;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Ek stil kuralları */
+h1, h2, h3, h4, h5, h6 {
+  color: #D1C4E9;
+}
+
+a {
+  color: #B39DDB;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9575CD;
+}
+
+button {
+  background-color: #512DA8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4527A0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
